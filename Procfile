@@ -1,1 +1,1 @@
-web: gunicorn src.config.wsgi
+gunicorn api_manga.wsgi --chdir src
